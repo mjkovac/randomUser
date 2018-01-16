@@ -1,0 +1,22 @@
+{
+  "name": "sasstemplate",
+  "version": "0.0.1",
+  "description": "A simple template that utilises SASS",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrent \"node-sass -w -o css sass\" \"npm run lite\"",
+    "lite": "lite-server"
+  },
+  "author": "Christopher Lewis",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.1.1",
+    "mustache": "^2.3.0"
+  },
+  "devDependencies": {
+    "concurrently": "^3.4.0",
+    "lite-server": "^2.3.0",
+    "node-sass": "^4.5.0"
+  }
+}

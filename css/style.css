@@ -1,0 +1,19 @@
+/*
+Christopher Lewis
+Date
+555555555
+for Christopher Lewis
+INM320 AA
+Sass Template
+*/
+
+@import url("https://fonts.googleapis.com/css?family=Bevan|Open+Sans+Condensed:300");
+html, body, div {
+  padding: 25;
+  margin: 25;
+  height: 100%; }
+
+body {
+  background-color: #000000;
+  color: #FFFFFF;
+  font-family: "Open Sans Condensed", sans-serif; }
